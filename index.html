@@ -3,15 +3,28 @@
   <head>
     <title>Triangles try out</title>
     <link href="index.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Dosis:300,400,700,800" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="//localhost:35729/livereload.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
   </head>
   <body>
+    <div id="nombre">
+      <h1>Dan</h1>
+      <h2>Rocha</h2>
+    </div>
+    <div id="ligas">
+      <ul><a href="https://github.com/DanMMX" target="_blank">
+          <li><i class="fa fa-github-alt fa-lg"></i></li></a><a href="https://twitter.com/kabezondan" target="_blank">
+          <li><i class="fa fa-twitter fa-lg"></i></li></a><a href="skype:dan.mmx?add">
+          <li><i class="fa fa-skype fa-lg"></i></li></a><a href="mailto:drochag1@gmail.com">
+          <li><i class="fa fa-envelope fa-lg"></i></li></a></ul>
+    </div>
     <div id="contenedor">
       <canvas id="triangles"></canvas>
     </div>
-    <script src="index.js"></script>
+    <script src="index.min.js"></script>
     <script>
       var redraw;
       (redraw = function () {
@@ -29,20 +42,20 @@
         myWidth = document.body.clientWidth;
         myHeight = document.body.clientHeight;
        }
-       
+
        myWidth += 1;
        myHeight += 1;
-       
+
        var contenedor = document.getElementById('contenedor')
        contenedor.setAttribute('style', 'width:'+myWidth+'px; height:'+myHeight+'px;');
       })();
-      
+
       if (window.attachEvent) {
        window.attachEvent('onresize', redraw);
       } else if (window.addEventListener) {
        window.addEventListener('resize', redraw, true);
       }
-      
+
       Triangles('triangles');
     </script>
   </body>
