@@ -1,62 +1,28 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Dan Rocha</title>
-    <link href="index.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Dosis:300,400,700,800" rel="stylesheet" type="text/css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-  </head>
-  <body>
-    <div id="nombre">
-      <h1>Dan</h1>
-      <h2>Rocha</h2>
-    </div>
-    <div id="ligas">
-      <ul><a href="https://github.com/DanMMX" target="_blank">
-          <li><i class="fa fa-github-alt fa-lg"></i></li></a><a href="https://twitter.com/kabezondan" target="_blank">
-          <li><i class="fa fa-twitter fa-lg"></i></li></a><a href="http://www.linkedin.com/profile/view?id=172949121" target="_blank">
-          <li><i class="fa fa-linkedin fa-lg"></i></li></a><a href="skype:dan.mmx?add">
-          <li><i class="fa fa-skype fa-lg"></i></li></a><a href="mailto:drochag1@gmail.com">
-          <li><i class="fa fa-envelope fa-lg"></i></li></a></ul>
-    </div>
-    <div id="contenedor">
-      <canvas id="triangles"></canvas>
-    </div>
-    <script src="index.min.js"></script>
-    <script>
-      var redraw;
-      (redraw = function () {
-       var myWidth = 0, myHeight = 0;
-       if( typeof( window.innerWidth ) == 'number' ) {
-        //Non-IE
-        myWidth = window.innerWidth;
-        myHeight = window.innerHeight;
-       } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
-        //IE 6+ in 'standards compliant mode'
-        myWidth = document.documentElement.clientWidth;
-        myHeight = document.documentElement.clientHeight;
-       } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
-        //IE 4 compatible
-        myWidth = document.body.clientWidth;
-        myHeight = document.body.clientHeight;
-       }
-
-       myWidth += 1;
-       myHeight += 1;
-
-       var contenedor = document.getElementById('contenedor')
-       contenedor.setAttribute('style', 'width:'+myWidth+'px; height:'+myHeight+'px;');
-      })();
-
-      if (window.attachEvent) {
-       window.attachEvent('onresize', redraw);
-      } else if (window.addEventListener) {
-       window.addEventListener('resize', redraw, true);
-      }
-
-      Triangles('triangles');
-    </script>
-  </body>
-</html>
+<html lang="es"></html>
+<head>
+  <title>Dan Rocha</title>
+  <link href="css/index.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Dosis:300,400,700,800" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+  <div id="nombre">
+    <h1>Dan</h1>
+    <h2>Rocha</h2>
+  </div>
+  <div id="ligas">
+    <ul><a href="https://github.com/DanMMX" target="_blank">
+        <li><i class="fa fa-github-alt fa-lg"></i></li></a><a href="https://twitter.com/kabezondan" target="_blank">
+        <li><i class="fa fa-twitter fa-lg"></i></li></a><a href="http://www.linkedin.com/profile/view?id=172949121" target="_blank">
+        <li><i class="fa fa-linkedin fa-lg"></i></li></a><a href="skype:dan.mmx?add">
+        <li><i class="fa fa-skype fa-lg"></i></li></a><a href="mailto:drochag1@gmail.com">
+        <li><i class="fa fa-envelope fa-lg"></i></li></a></ul>
+  </div>
+  <div id="contenedor">
+    <canvas id="triangles"></canvas>
+  </div>
+  <script src="js/index.js"></script>
+</body>
