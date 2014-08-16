@@ -2,3 +2,4 @@ node_modules
 dev
 *.sublime-*
 src
+.DS_Store
