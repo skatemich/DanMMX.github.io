@@ -1,0 +1,81 @@
+{
+	"skills": [{
+		"title": "Développement",
+		"skills": [{
+			"name": "JScript",
+			"time": 4,
+			"exp": 95
+		}, {
+			"name": "NodeJS",
+			"time": 3,
+			"exp": 85
+		}, {
+			"name": "Java",
+			"time": 5,
+			"exp": 60
+		}, {
+			"name": "CSS3",
+			"time": 4,
+			"exp": 90
+		}, {
+			"name": "HTML5",
+			"time": 4,
+			"exp": 95
+		}, {
+			"name": "PHP",
+			"time": 2,
+			"exp": 50
+		}]
+	},{
+		"title": "Technologies",
+		"skills": [{
+			"name": "Git",
+			"time": 4,
+			"exp": 95
+		},{
+			"name": "Android",
+			"time": 3,
+			"exp": 75
+		}]
+	},{
+		"title": "Backend",
+		"skills": [{
+			"name": "Express",
+			"time": 3,
+			"exp": 80
+		}, {
+			"name": "Sequelize",
+			"time": 3,
+			"exp": 100,
+			"class": "big"
+		}, {
+			"name": "Socket.io",
+			"time": 3,
+			"exp": 85
+		}, {
+			"name": "Yo, Grunt, Bower",
+			"time": 2,
+			"exp": 95,
+			"class": "bigger"
+		}]
+	},{
+		"title": "Frontend",
+		"skills": [{
+			"name": "Less",
+			"time": 3,
+			"exp": 100
+		}, {
+			"name": "Compass",
+			"time": 2,
+			"exp": 70
+		}, {
+			"name": "Angular",
+			"time": 2,
+			"exp": 95
+		}, {
+			"name": "Jade",
+			"time": 3,
+			"exp": 100
+		}]
+	}]
+}
