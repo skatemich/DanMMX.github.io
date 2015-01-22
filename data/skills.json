@@ -5,43 +5,55 @@
 			"time": 4,
 			"exp": 95
 		}, {
-			"name": "NodeJS",
-			"time": 3,
-			"exp": 85
-		}, {
 			"name": "Java",
-			"time": 5,
+			"time": 4,
 			"exp": 60
 		}, {
 			"name": "CSS3",
 			"time": 4,
-			"exp": 90
+			"exp": 95
 		}, {
 			"name": "HTML5",
 			"time": 4,
 			"exp": 95
+		}, {
+			"name": "Ruby",
+			"time": 1,
+			"exp": 40
 		}, {
 			"name": "PHP",
 			"time": 2,
 			"exp": 50
 		}],
 		"tech": [{
+			"name": "NodeJS",
+			"time": 3,
+			"exp": 85
+		}, {
+			"name": "Coffeescript",
+			"time": 2,
+			"exp": 85
+		}, {
 			"name": "Git",
 			"time": 4,
-			"exp": 95
-		},{
+			"exp": 90
+		}, {
 			"name": "Android",
 			"time": 3,
 			"exp": 75
+		}, {
+			"name": "Wordpress",
+			"time": 1,
+			"exp": 70
 		}],
 		"back": [{
 			"name": "Express",
 			"time": 3,
-			"exp": 80
+			"exp": 90
 		}, {
 			"name": "Sequelize",
 			"time": 3,
-			"exp": 100,
+			"exp": 90,
 			"class": "big"
 		}, {
 			"name": "Socket.io",
@@ -52,23 +64,44 @@
 			"time": 2,
 			"exp": 95,
 			"class": "bigger"
+		}, {
+			"name": "Rails",
+			"time": 1,
+			"exp": 40
 		}],
 		"front": [{
+			"name": "Sass",
+			"time": 1,
+			"exp": 80
+		}, {
 			"name": "Less",
 			"time": 3,
 			"exp": 100
 		}, {
 			"name": "Compass",
-			"time": 2,
-			"exp": 70
+			"time": 1,
+			"exp": 60
 		}, {
 			"name": "Angular",
 			"time": 2,
-			"exp": 95
+			"exp": 90
+		}, {
+			"name": "Bootstrap",
+			"time": 2,
+			"exp": 90
+		}, {
+			"name": "Angular UI / Angular Strap",
+			"time": 2,
+			"exp": 95,
+			"class": "biggest"
 		}, {
 			"name": "Jade",
 			"time": 3,
 			"exp": 100
+		}, {
+			"name": "Haml",
+			"time": 1,
+			"exp": 70
 		}]
 	}
 }
