@@ -32,7 +32,8 @@
 		}, {
 			"name": "Coffeescript",
 			"time": 2,
-			"exp": 85
+			"exp": 85,
+			"class": "bigger"
 		}, {
 			"name": "Git",
 			"time": 4,
