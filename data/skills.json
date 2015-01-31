@@ -79,6 +79,10 @@
 			"time": 3,
 			"exp": 100
 		}, {
+			"name": "Stylus",
+			"time": 1,
+			"exp": 70
+		}, {
 			"name": "Compass",
 			"time": 1,
 			"exp": 60
