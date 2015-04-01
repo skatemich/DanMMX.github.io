@@ -54,14 +54,14 @@
 		}, {
 			"name": "Sequelize",
 			"time": 3,
-			"exp": 90,
+			"exp": 95,
 			"class": "big"
 		}, {
 			"name": "Socket.io",
 			"time": 3,
 			"exp": 85
 		}, {
-			"name": "Yo, Grunt, Bower",
+			"name": "Yo, Grunt, Bower, Gulp",
 			"time": 2,
 			"exp": 95,
 			"class": "bigger"
@@ -69,6 +69,15 @@
 			"name": "Rails",
 			"time": 1,
 			"exp": 40
+		}, {
+			"name": "Redis",
+			"time": 1,
+			"exp": 80
+		}, {
+			"name": "Memcache",
+			"time": 1,
+			"exp": 70,
+			"class": "big"
 		}],
 		"front": [{
 			"name": "Sass",
@@ -89,7 +98,11 @@
 		}, {
 			"name": "Angular",
 			"time": 2,
-			"exp": 90
+			"exp": 95
+		}, {
+			"name": "React",
+			"time": 0.5,
+			"exp": 60
 		}, {
 			"name": "Bootstrap",
 			"time": 2,
